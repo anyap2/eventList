@@ -26,6 +26,7 @@ export default function EditEventForm({ index }) {
         temp[index] = data
         setList([...temp])
         reset()
+        setShowEditForm(false)
     }
 
     return (
@@ -49,7 +50,7 @@ export default function EditEventForm({ index }) {
                     {...register("description",)}
                 />
 
-                <input id="submitButton" onClick={()=>setShowEditForm(false)} type="submit" />
+                <input id="submitButton" type="submit"  />
 
             </form>
 

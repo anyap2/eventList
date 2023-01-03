@@ -59,7 +59,8 @@ label {
 #topStyleHomePage {
     width: 100vw;
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 #buttonStyleHomePage {
@@ -67,7 +68,8 @@ label {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2vw
+    padding: 0vw;
+    margin:0
 }
 
 #errorsForm {

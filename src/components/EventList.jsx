@@ -17,7 +17,7 @@ export default function EventList() {
                 {list.map((event, index) =>
 
                     <li key={index} >
-
+                        <hr />
                         <h3 id="listNameInIt">{event.name}</h3>
                         <p>Start date: {event.startDate}</p>
                         <p>End date: {event.endDate}</p>

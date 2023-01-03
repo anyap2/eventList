@@ -15,7 +15,7 @@ export default function EventForm() {
     return (
         <div id="formAndList">
             <div>
-                
+
             </div>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div id="topStyleHomePage">
@@ -49,9 +49,9 @@ export default function EventForm() {
                 </div>
 
 
-                <h2 id="buttonStyleHomePage">
+                <h3 id="buttonStyleHomePage">
                     <input id="submitButton" type="submit" />
-                </h2>
+                </h3>
 
                 <h5 id="errorsForm">
                     {errors.name &&
