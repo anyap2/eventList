@@ -8,7 +8,7 @@ export default function EventList() {
     const { list, setList } = useContext(StorageContext)
     const deleteItem = (itemName) => {
         setList(list.filter(item =>
-            item.name != itemName))
+            item.name !== itemName))
     }
 
     return (
