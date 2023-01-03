@@ -6,7 +6,7 @@ export default function Context() {
     const [showEditForm, setShowEditForm] = useState(false)
  
     return {
-        submit, list, setList, editList, setEditList,showEditForm, setShowEditForm
+        list, setList, editList, setEditList,showEditForm, setShowEditForm
     }
 }
 
