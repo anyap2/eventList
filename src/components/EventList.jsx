@@ -28,9 +28,9 @@ export default function EventList() {
                                 Details
                             </NavLink>
 
-                            <a className="navlink" onClick={() => deleteItem(event.name)} >
+                            <div className="navlink" onClick={() => deleteItem(event.name)} >
                                 Delete
-                            </a>
+                            </div>
                         </div>
 
                     </li>)}
