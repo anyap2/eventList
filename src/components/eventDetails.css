@@ -1,0 +1,53 @@
+#navlinksDiv {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-evenly;
+}
+
+.navlink {
+    --button-background: var(--color-primary);
+    --button-color: white;
+    --outline-color: transparent;
+    background-color: #c7b2cf;
+    border: 2px solid transparent;
+    border-radius: 0.5em;
+    color: #516259;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: var(--brand-font-alt);
+    font-size: calc(5px + 2vmin);
+    font-weight: var(--brand-font-alt-weight-bold);
+    gap: 0.5em;
+    line-height: calc(4px + 2ex);
+    min-width: 10ch;
+    text-decoration: none;
+    transition: none .18s ease-in-out;
+    display: flex;
+    justify-content: center;
+    width: 22vw;
+    height: 5vw;
+}
+
+.editButton {
+    height: 5.5vw;
+
+}
+
+@media (max-width: 767px) {
+
+    #navlinksDiv {
+        width: 100vw;
+
+    }
+
+    .editButton {
+        height: 13vw;
+
+    }
+
+    .navlink {
+        height: 12vw
+    }
+
+}

@@ -1,0 +1,116 @@
+form {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap
+}
+
+.inputsDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.formInput {
+    width: 19vw;
+    height: 4.3vw;
+    font-family: inherit;
+    background-color: #fff;
+    border: 2px solid var(--input-border);
+    border-radius: 4px;
+}
+
+.dateInput {
+    height: 4.53vw;
+    font-size: calc(6px + 2vmin);
+}
+
+#formAndList {
+    width: 100vw;
+    height: fit-content;
+}
+
+label {
+    font-size: small;
+}
+
+#submitButton {
+    --button-background: var(--color-primary);
+    --button-color: white;
+    --outline-color: transparent;
+    background-color: #c7b2cf;
+    border: 2px solid transparent;
+    border-radius: 0.5em;
+    color: #516259;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: var(--brand-font-alt);
+    font-size: calc(5px + 2vmin);
+    font-weight: var(--brand-font-alt-weight-bold);
+    gap: 0.5em;
+    line-height: calc(4px + 2ex);
+    min-width: 10ch;
+    text-decoration: none;
+    transition: none .18s ease-in-out;
+    display: flex;
+    justify-content: center;
+    width: 11vw;
+    height: 4vw;
+}
+
+#topStyleHomePage {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly
+}
+
+#buttonStyleHomePage {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw
+}
+
+#errorsForm {
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 65vh;
+        flex-wrap: nowrap;
+    }
+
+    .inputsDiv {
+        display: flex;
+        height: 10vh;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #formAndList {
+        font-size: large;
+    }
+
+    label {
+        font-size: medium;
+    }
+
+    .formInput {
+        width: 49vw;
+        height: 11.3vw
+    }
+
+    #submitButton {
+        width: 27vw;
+        height: 12vw
+    }
+
+    #topStyleHomePage {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
